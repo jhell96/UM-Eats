@@ -6,6 +6,7 @@
     z-index: 1000;
     padding: 100px 30px;
     border-radius: 55px;
+    width: 321px;
 }
 
 .device:before {
