@@ -1,0 +1,6 @@
+{
+  "name": "Um-eats",
+  "tagline": "",
+  "body": "# UM Eats\r\nAn app to find healthy food on the University of Miami campus.\r\n\r\n## Construction\r\n\r\nThe cross-platform app was built using lightweight components -- Angular, Framework7, Cordova, and simple front-end json storage. Some components were based off of https://github.com/valnub/Framework7-Pure-Angular-Template.\r\n\r\n## Live demo\r\n\r\nCheck it out here: \r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
