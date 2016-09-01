@@ -1,0 +1,106 @@
+/* Add custom styles here */
+#card-header {
+	height: 40vw;
+	background-size: cover;
+	background-position: center;
+	font-size: 30px;
+}
+
+.category-text {
+	text-shadow: 0 0 10px #000;
+}
+
+.menu-ul-list {
+	border-radius: 5px;
+	background-color: #0b3300 !important;
+}
+
+.panel-left {
+	background-color: #125400 !important;
+}
+
+.list-block .item-link .item-inner {
+	background-image: none;
+	padding-right: 0px;
+}
+
+#side-panel-text-block {
+	color: #fff;
+}
+
+.navbar {
+	background-color: #ff9500;
+}
+
+#app-title {
+	color: #fff;
+	text-shadow: 0 0 1px #9c9c9c;
+}
+
+.card-section-title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.no-mar {
+	margin: 0px;
+}
+
+#map {
+	width: 100%;
+}
+
+.marker {
+    border: 1px solid #ff9500;
+    color: #0b3300;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.marker:after {
+    content: "";
+    position: absolute;
+    left: 34%;
+    top: 17px;
+    border: 10px solid transparent;
+    border-top: 10px solid #ff9500;
+}
+
+.marker-name {
+	padding: 2px;
+}
+
+.review-card {
+	height: 400px;
+}
+
+.card-header-review {
+	height: 50%;
+	background-size: cover;
+    background-position: center;
+}
+
+.card-header-campus {
+	height: 240px;
+	background-size: cover;
+    background-position: center;
+}
+
+.card-content-review {
+	height: 50%;
+}
+
+.review-title {
+	text-shadow: 0 0 10px #000;
+}
+
+.logo {
+    height: 65px;
+    width: 105px;
+    background-position: center;
+    background-size: cover;
+    bottom: 20px;
+    position: absolute;
+    left: 30%;
+}
