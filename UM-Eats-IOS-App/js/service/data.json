@@ -1,0 +1,316 @@
+{
+	"categories": [
+		{
+			"category": "Soups", 
+			"src": "http://clv.h-cdn.co/assets/cm/15/10/1600x800/54f4a5bf1042a_-_chicken-noodle-soup-recipe.jpg",
+			"restaurants": [
+				1, 16, 20
+			]
+		},
+		{
+			"category": "Salads", 
+			"src": "https://www.oregoncc.org/sites/default/files/styles/content_image/public/Garden%20Salad.jpg?itok=MwnociMC",
+			"restaurants": [
+				1, 16, 17, 22, 4, 15, 14, 3, 9, 6, 23
+			]
+		},
+		{
+			"category": "Smoothies", 
+			"src": "http://www.trophyfitnessclub.com/wp-content/uploads/2014/09/82e93946-b08c-4233-9ae8-47722576a695.jpg",
+			"restaurants": [
+				19, 16
+			]
+		},
+		{
+			"category": "Sandwiches", 
+			"src": "http://www.tasty-sandwich-recipes.com/images/healthy.turkey.sandwich.jpg",
+			"restaurants": [
+				20, 16, 11, 9, 23
+			]
+		},
+		{
+			"category":	"Snacks", 
+			"src": "https://s-media-cache-ak0.pinimg.com/236x/f9/b2/7b/f9b27bcfee23389db62915645e67c048.jpg",
+			"restaurants": [
+				0, 23
+			]
+		}	
+	],
+ 	"restaurants": [
+ 		{
+ 			"restaurant": "7-11",
+ 			"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/7-eleven-brand.svg/2000px-7-eleven-brand.svg.png",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Au Bon Pain",
+ 			"src": "https://lipscomb.sodexomyway.com/images/Au%20Bon%20Pain%20(1)_tcm104-53480.JPG",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Auntie Anne's",
+ 			"src": "http://veganfoodlover.com/wp-content/uploads/2015/07/Auntie_Annes-vegan-pretzels.jpg",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Burger King",
+ 			"src": "https://pbs.twimg.com/profile_images/694921357864386563/p0nF8Bj8.jpg",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Cafe 2020",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Carvel",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Chicken Kitchen",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Dunkin' Donuts",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Farmer's Market",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Gilbert's Bakery",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Jamba Juice",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Jimmy John's",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "JMH Cafeteria",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Manger Creole",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "McDonald's",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Moe's Southwestern Grill",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Panera",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Pollo Tropical",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Salsa Fiesta",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Smoothie King",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Subway",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "UM Cafeteria",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+		{
+ 			"restaurant": "Vienna Cafe",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		},
+ 		{
+ 			"restaurant": "Starbucks",
+ 			"src": "",
+ 			"address": "",
+ 			"hours": "",
+ 			"suggestions": [
+ 				
+ 			],
+ 			"latLng": [25.7517, -80.2889]
+ 		}
+ 	],
+ 	"reviews": [
+ 		{
+ 			"restaurant": 16,
+ 			"date": "September 1, 2016",
+ 			"title": "Mediteranean Sandwich",
+ 			"src": "https://www.panerabread.com/panerabread/menu/details/mediterranean-veggie-sandwich-whole.jpg/_jcr_content/renditions/mediterranean-veggie-sandwich-whole.desktop.jpeg",
+ 			"content": "I loved my mediteranean sandwich at Panera. The crispy bread melded perfectly with a colorful blend of vegetables. Butter lettuce, juicy red onions, and feta cheese were integrated into a masterpiece in my mouth. Go try it!"
+ 		}
+ 	],
+ 	"onCampus": [
+ 		{
+ 			"restaurant": 0,
+ 			"ingredients": [
+ 				"Banana", "Yogurt", "Hummus and Pretzel Chips"
+ 			],
+ 			"src": "http://www.dietdetective.com/wp-content/uploads/shutterstock_62555524-960x500.jpg"
+ 		}
+ 	],
+ 	"healthyHome": [
+ 		{
+			"meal": "Tuna Sandwich",
+			"ingredients": [
+				"Canned Tuna", "Low-fat Mayo", "Whole-grain Bread"
+			],
+			"src": "http://images-gmi-pmc.edge-generalmills.com/db53baa5-9b18-4fe4-ba50-a5197f53de18.jpg"
+ 		},
+ 		{
+ 			"meal": "Salad",
+ 			"ingredients": [
+ 				"Lettuce", "Cherry Tomatoes", "Chicken", "Balsamic Dressing"
+ 			],
+ 			"src": "https://fffkids.files.wordpress.com/2011/08/chicken-pepper-salad.jpg"
+ 		}
+ 	]
+
+}
