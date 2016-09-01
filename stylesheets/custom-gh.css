@@ -1,0 +1,9 @@
+.device {
+    margin: 0 auto;
+    position: relative;
+    background: #111;
+    box-shadow: 0px 0px 0px 2px #aaa;
+    z-index: 1000;
+    padding: 100px 30px;
+    border-radius: 55px;
+}
