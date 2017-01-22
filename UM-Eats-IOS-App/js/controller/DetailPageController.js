@@ -5,6 +5,11 @@ MyApp.angular.controller('DetailPageController', ['$scope', '$http', 'InitServic
 	function ($scope, $http, InitService, DataService) {
   		'use strict';
   
+    $scope.onSugClicked = function (restKey) {
+      console.log(restKey);
+      DataService.sugClicked(restKey);
+    } 
+
   	DataService.addEventListener('categoryClicked', function(category) {
   		console.log("DetailPageController:");
   		console.log(category);

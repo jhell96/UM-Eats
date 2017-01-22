@@ -6,7 +6,8 @@ MyApp.angular.factory('DataService', ['$document', '$http', function ($document,
 
   var pub = {},
     eventListeners = {
-      'categoryClicked' : []
+      'categoryClicked' : [],
+      'sugClicked' : []
     };
 
   pub.addEventListener = function (eventName, callback) {
@@ -16,6 +17,12 @@ MyApp.angular.factory('DataService', ['$document', '$http', function ($document,
   pub.categoryClicked = function (category) {
     for (var i = 0; i < eventListeners.categoryClicked.length; i++){
       eventListeners.categoryClicked[i](category);
+    }
+  }
+
+  pub.sugClicked = function (restKey) {
+    for (var i = 0; i < eventListeners.sugClicked.length; i++){
+      eventListeners.sugClicked[i](restKey);
     }
   }
 
