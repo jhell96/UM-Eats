@@ -40,242 +40,258 @@
  		{
  			"restaurant": "7-11",
  			"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/7-eleven-brand.svg/2000px-7-eleven-brand.svg.png",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
-
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-324-3645",
+ 			"menu": "",
+ 			"suggestions": "",
+ 			"latLng": [25.787418, -80.212168]
  		},
 		{
  			"restaurant": "Au Bon Pain",
- 			"src": "https://lipscomb.sodexomyway.com/images/Au%20Bon%20Pain%20(1)_tcm104-53480.JPG",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://aubonpain.com/sites/default/files/abp_cafelogo.png",
+ 			"address": "1611 NW 12th Ave, Miami, FL, 33136",
+ 			"hours": "24 hrs during weekdays",
+ 			"phone": "305-545-9999",
+ 			"menu": "https://aubonpain.com/sites/default/files/menu_nutrition.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/1h4F64sVQlHj2zcTL4ttBa4G5CLgVSXUIB1SPoRnhdi8/pub?embedded=true",
+ 			"latLng": [25.791799, -80.212638]
  		},
 		{
  			"restaurant": "Auntie Anne's",
- 			"src": "http://veganfoodlover.com/wp-content/uploads/2015/07/Auntie_Annes-vegan-pretzels.jpg",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://www.auntieannes.com/public/images/our-story/newsroom/aa-logo-recall.png",
+ 			"address": "901 NW 17th St L-M, Miami, FL 33136",
+ 			"hours": "M-F: 12am - 8pm",
+ 			"phone": "",
+ 			"menu": "http://www.auntieannes.com/pretzels-nutrition",
+ 			"suggestions": "",
+ 			"latLng": [25.791921, -80.210719]
  		},
 		{
  			"restaurant": "Burger King",
- 			"src": "https://pbs.twimg.com/profile_images/694921357864386563/p0nF8Bj8.jpg",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://logos-download.com/wp-content/uploads/2016/04/Burger_King_logo_emblem-2.png",
+ 			"address": "1156-1196 NW 16th St, Miami, Florida, 33136",
+ 			"hours": "6am - 12am",
+ 			"phone": "786-260-6960",
+ 			"menu": "https://www.bk.com/pdfs/nutrition.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/10AKi9Paafv9pOYcMG5o9i8Ko4ryrEaUKc9JdE1xgG0c/pub",
+ 			"latLng": [25.790592, -80.21267]
  		},
 		{
  			"restaurant": "Cafe 2020",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://d3j6q7pa6ix88g.cloudfront.net/facilities/logo_wides/1001/wide/Bascom_Palmer_logo_high_res.png?1391452629",
+ 			"address": "900 NW 17th St, Miami, FL, 33136",
+ 			"hours": "8am - 5pm",
+ 			"phone": "",
+ 			"menu": "",
+ 			"suggestions": "https://docs.google.com/document/d/1hQtoH2NrTK147cDHzNGCs5MWPdCkcqoQ5HBS8obIoCQ/pub",
+ 			"latLng": [25.790998, -80.210678]
  		},
 		{
  			"restaurant": "Carvel",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/0/00/Carvel_logo.png",
+ 			"address": "901 NW 17th St, Miami, FL 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "",
+ 			"menu": "www.carvel.com/public/images/NutritionalFacts124141.pdf",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.791921, -80.210719]
  		},
 		{
  			"restaurant": "Chicken Kitchen",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://whatsinstore.blogs.heraldtribune.com/files/2016/03/logo.png",
+ 			"address": "1051 NW 14th St, Miami, FL, 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-547-2442",
+ 			"menu": "www.chickenkitchen.com/pdf/our_menu.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/1-jg7aOR1qAP6cFm60kkQL3WwoXWeSe0eodvqbHssWY0/pub",
+ 			"latLng": [25.788053, -80.212107]
  		},
 		{
  			"restaurant": "Dunkin' Donuts",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
-
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin'_Donuts_logo.svg/1280px-Dunkin'_Donuts_logo.svg.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-428-3710",
+ 			"menu": "http://www.dunkindonuts.com/dunkindonuts/en/menu/nutrition/nutrition_catalog.html",
+ 			"suggestions": "https://docs.google.com/document/d/1kPuLmbo_LjcUzwOuMT3LIQueubontO19PV6-8NSj5OE/pub",
+ 			"latLng": [25.787418, -80.212168]
  		},
 		{
  			"restaurant": "Farmer's Market",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "http://themarketcompany.org/wp-content/uploads/2016/10/slide5-940x300.jpg",
+ 			"address": "1601 NW 10th Ave, Miami, FL 33136",
+ 			"hours": "9am - 3pm",
+ 			"phone": "",
+ 			"menu": "",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.790369, -80.210732]
  		},
 		{
  			"restaurant": "Gilbert's Bakery",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "https://gilbertsbakery.files.wordpress.com/2013/09/cropped-gilbert_logo_horizontal-rgb.jpg",
+ 			"address": "2100 NW 42nd Ave, Miami, FL 33142",
+ 			"hours": "M-Sat: 6:30am-8:30pm, Sun: 7:30am-3:30pm",
+ 			"phone": "305-869-4989",
+ 			"menu": "www.gilbertsbakery.com/menu.pdf",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.796887, -80.264407]
  		},
 		{
  			"restaurant": "Jamba Juice",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "https://goodlogo.com/images/logos/jamba_juice_logo_3252.gif",
+ 			"address": "901 NW 17th St, Miami, FL 33136",
+ 			"hours": "M-F: 7am-8pm, Sat: 11am-4pm",
+ 			"phone": "786-899-0466",
+ 			"menu": "http://www.jambajuice.com/menu-and-nutrition/menu",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.791921, -80.210719]
  		},
 		{
  			"restaurant": "Jimmy John's",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jimmy_John's_2016_Logo.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-Sun: 11am - 9pm",
+ 			"phone": "786-621-7600",
+ 			"menu": "https://www.jimmyjohns.com/menu/#/",
+ 			"suggestions": "https://docs.google.com/document/d/1dihvEoUlTAIMnASx3pi59HbbT6RDjO6h94ueonaFMGs/pub",
+ 			"latLng": [25.787418, -80.212168]
  		},
 		{
  			"restaurant": "JMH Cafeteria",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "http://www.jacksonhealth.org/images/logo-jackson-memorial.jpg",
+ 			"address": "1611 NW 12th Ave, Miami, FL 33136 - First floor of Jackson Memorial Hospital",
+ 			"hours": "M-F: 6am-8pm, Sat-Sun: open 7am",
+ 			"phone": "305-585-8161",
+ 			"menu": "",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.791799, -80.212638]
  		},
 		{
  			"restaurant": "Manger Creole",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://rdc.rdcimage.com/partner-images/330045/mainlogo_logo.jpg",
+ 			"address": "1051 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-F: 9am - 8pm",
+ 			"phone": "305-324-1615",
+ 			"menu": "http://www.mangercreolemiami.com/menu.aspx",
+ 			"suggestions": "https://docs.google.com/document/d/1EJY4dJqFIeRK4iD_SaakNEnLQSc9MFXZwBFDASl-ET8/pub",
+ 			"latLng": [25.788053, -80.212107]
  		},
 		{
  			"restaurant": "McDonald's",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://vignette3.wikia.nocookie.net/logopedia/images/7/72/Mcdonalds.jpg/revision/latest?cb=20140621181049",
+ 			"address": "901 NW 17th St, Miami, FL 33136",
+ 			"hours": "24/7",
+ 			"phone": "305-326-0044",
+ 			"menu": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html#categoryLoading",
+ 			"suggestions": "https://docs.google.com/document/d/1e-q9ED9U_VUcDOUHqoapzRckH_hoEOyO02fHWl9v8sw/pub",
+ 			"latLng": [25.791921, -80.210719]
  		},
 		{
  			"restaurant": "Moe's Southwestern Grill",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/8/80/Moes_logo.png",
+ 			"address": "901 NW 17th Street Suite L-M, Miami, FL 33136",
+ 			"hours": "M-F: 10am-10pm, Sat: 11am-7pm",
+ 			"phone": "786-717-5015",
+ 			"menu": "http://www.moes.com/food/nutrition/burritos/",
+ 			"suggestions": "https://docs.google.com/document/d/1ZfPZ8I84ThbhrTrnJWN_-vfgIeVwvMiFv3NtuT1FXfw/pub",
+ 			"latLng": [25.791921, -80.210719]
  		},
 		{
  			"restaurant": "Panera",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://www.golfmill.com/wp-content/uploads/2016/12/panera-bread-logo.png",
+ 			"address": "1611 NW 12th Avenue, Miami, FL, 33136",
+ 			"hours": "5:00am - 9:00pm",
+ 			"phone": "786-775-5999",
+ 			"menu": "https://cater.panerabread.com/catering-webapp/explore",
+ 			"suggestions": "https://docs.google.com/document/d/1S3uta2TEl3cj7efnWA-d1lxvmvMStnFVlXPAqO6_HiE/pub",
+ 			"latLng": [25.791799, -80.212638]
  		},
 		{
  			"restaurant": "Pollo Tropical",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://fastfoodinusa.com/templates/uploads/userfiles/images/brands-logo/Pollo_Tropical_logo.png",
+ 			"address": "1156-1196 NW 16th St, Miami, FL 33136",
+ 			"hours": "M-Sun: 10:00am - 9:00pm",
+ 			"phone": "",
+ 			"menu": "http://pollotropical.com/menus/",
+ 			"suggestions": "https://docs.google.com/document/d/1RmQJGmHLLkik6AFFPwI-n9YCYLelRdtVflXbCOoBakQ/pub",
+ 			"latLng": [25.7900026, -80.2130032]
  		},
 		{
  			"restaurant": "Salsa Fiesta",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://static1.squarespace.com/static/5704313c45bf214b427bd478/570eaf3ab09f951bbd59df14/5801431ebe6594fdf9f572da/1480617570804/3bLqIq88+(2).jpeg?format=750w",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-Sat: 11am-10pm, Sun: 12pm-9pm",
+ 			"phone": "305-615-3831",
+ 			"menu": "https://b.zmtcdn.com/data/menus/645/16541645/f91a217dc32c8d947b55676db2960ea6.jpg",
+ 			"suggestions": "https://docs.google.com/document/d/1j8ztwQckpC4iGtEoyQpY61HD2ZFnf3s378KCtEgzLdc/pub",
+ 			"latLng": [25.787418, -80.212168]
  		},
 		{
  			"restaurant": "Smoothie King",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "http://www.underconsideration.com/brandnew/archives/smoothie_king_logo_detail.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-F: 7am-9pm, Sat: 8am-9pm, Sun: 9am-8pm",
+ 			"phone": "305-547-6906",
+ 			"menu": "http://smoothieking.com/menu/nutrition-info",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.787418, -80.212168]
  		},
 		{
  			"restaurant": "Subway",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "http://vignette1.wikia.nocookie.net/logopedia/images/6/64/Subway_logo.jpg/revision/latest?cb=20140808235058",
+ 			"address": "1051 NW 14th St, Miami, FL 33136",
+ 			"hours": "7:00am - 7:00pm",
+ 			"phone": "305-326-9001",
+ 			"menu": "http://local.subway.com/FWPCons/frmMenu.aspx?CC=USA&LC=ENG&SS=16032-0&PM=&MenuID=",
+ 			"suggestions": "https://docs.google.com/document/d/1Ne2-AmvTJG2dv2mkFxRcvVTmUdndfs0l7-jyP4E0XYs/pub",
+ 			"latLng": [25.788053, -80.212107]
  		},
 		{
  			"restaurant": "UM Cafeteria",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "http://uhealthsystem.com/images/logos/uhealth/jpg/uhealth-300.jpg",
+ 			"address": "1120 NW 14th St, Miami, FL 33136",
+ 			"hours": "6:30am-10am, 11am - 3:30pm, 4:30pm-6:30pm",
+ 			"phone": "305-689-5511",
+ 			"menu": "",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.787107, -80.21296]
  		},
 		{
  			"restaurant": "Vienna Cafe",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
+ 			"src": "http://nebula.wsimg.com/51d41d42c939da1057c30439b134135d?AccessKeyId=9A84C4D1853251A051A3&disposition=0&alloworigin=1",
+ 			"address": "1611 NW 12th Ave, Miami, FL 33136",
+ 			"hours": "10:00am - 9:00pm",
+ 			"phone": "",
+ 			"menu": "",
  			"suggestions": [
  				
  			],
- 			"latLng": [25.7517, -80.2889]
+ 			"latLng": [25.791799, -80.212638]
  		},
  		{
  			"restaurant": "Starbucks",
- 			"src": "",
- 			"address": "",
- 			"hours": "",
- 			"suggestions": [
- 				
- 			],
- 			"latLng": [25.7517, -80.2889]
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Starbucks_Coffee_Logo.svg/600px-Starbucks_Coffee_Logo.svg.png",
+ 			"address": "1400 NW 12th Ave Miami, FL 33125",
+ 			"hours": "M-F: 7am-11pm, Sa: 12pm-12am, Su: 6pm-11pm",
+ 			"phone": "",
+ 			"menu": "http://www.starbucks.com/menu",
+ 			"suggestions": "https://docs.google.com/document/d/1l1LJTKjMQJMU5Gihm_mtLhQcdEBnxDHslmrorJfVnjU/pub",
+ 			"latLng": [25.788621, -80.215864]
  		}
  	],
  	"reviews": [
