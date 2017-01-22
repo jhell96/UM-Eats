@@ -8,3 +8,4 @@ The cross-platform app was built using lightweight components -- Angular, Framew
 ## Live demo
 
 Check it out here: 
+https://jhell96.github.io/UM-Eats/
