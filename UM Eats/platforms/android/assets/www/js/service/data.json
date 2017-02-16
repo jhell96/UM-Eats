@@ -1,0 +1,464 @@
+{
+	"categories": [
+		{
+			"category": "Soups", 
+			"src": "img/soups.jpg",
+			"restaurants": [
+				21, 24, 25, 26, 1, 6, 14, 18, 19, 20
+			]
+		},
+		{
+			"category": "Salads", 
+			"src": "img/salads.jpg",
+			"restaurants": [
+				21, 23, 24, 25, 26, 27, 0, 1, 3, 6, 14, 16, 17, 18, 19, 20, 7, 10
+			]
+		},
+		{
+			"category": "Smoothies", 
+			"src": "img/smoothies.jpg",
+			"restaurants": [
+				22, 2, 6, 16, 19, 10, 12
+			]
+		},
+		{
+			"category": "Sandwiches & Wraps", 
+			"src": "img/sandwiches.jpg",
+			"restaurants": [
+				23, 24, 25, 26, 27, 0, 1, 3, 6, 14, 16, 19, 7, 9, 10, 11, 13
+			]
+		},
+		{
+			"category":	"Snacks", 
+			"src": "img/snacks.jpg",
+			"restaurants": [
+				22, 23, 26, 0, 1, 2, 5, 6, 14, 19, 8, 9, 10, 11, 12
+			]
+		},
+		{
+			"category":	"Breakfast", 
+			"src": "img/breakfast.jpg",
+			"restaurants": [
+				22, 23, 24, 26, 0, 1, 3, 6, 14, 15, 16, 19, 8, 9, 11
+			]
+		},
+		{
+			"category":	"Cafe/Coffee", 
+			"src": "img/cafe-coffee.jpg",
+			"restaurants": [
+				23, 26, 0, 1, 3, 6, 14, 16, 19, 8, 9, 10, 11
+			]
+		},
+		{
+			"category":	"Mexican/Latin", 
+			"src": "img/mexican-latin.jpg",
+			"restaurants": [
+				21, 17, 20, 7, 10
+			]
+		},
+		{
+			"category":	"Creole", 
+			"src": "img/creole.jpg",
+			"restaurants": [
+				15
+			]
+		},
+		{
+			"category":	"American", 
+			"src": "img/american.jpg",
+			"restaurants": [
+				0, 3, 14, 16, 18, 10
+			]
+		},
+		{
+			"category":	"Italian", 
+			"src": "img/italian.jpg",
+			"restaurants": [
+				25, 27, 0, 14, 18
+			]
+		}	
+	],
+ 	"restaurants": [
+ 		{
+ 			"restaurant": "7-11",
+ 			"src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/7-eleven-brand.svg/2000px-7-eleven-brand.svg.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-324-3645",
+ 			"menu": "https://www.7-eleven.com/Food/",
+ 			"suggestions": "https://docs.google.com/document/d/1U_eJcrPQXG6CR8J-R1khuQEIkIQD-AFIEiYgTCBd9UA/pub",
+ 			"latLng": [25.787418, -80.212168]
+ 		},
+		{
+ 			"restaurant": "Au Bon Pain",
+ 			"src": "http://aubonpain.com/sites/default/files/abp_cafelogo.png",
+ 			"address": "1611 NW 12th Ave, Miami, FL, 33136",
+ 			"hours": "24 hrs during weekdays",
+ 			"phone": "305-545-9999",
+ 			"menu": "https://aubonpain.com/sites/default/files/menu_nutrition.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/1h4F64sVQlHj2zcTL4ttBa4G5CLgVSXUIB1SPoRnhdi8/pub",
+ 			"latLng": [25.791799, -80.212638]
+ 		},
+		{
+ 			"restaurant": "Auntie Anne's",
+ 			"src": "http://www.auntieannes.com/public/images/our-story/newsroom/aa-logo-recall.png",
+ 			"address": "901 NW 17th St L-M, Miami, FL 33136",
+ 			"hours": "M-F: 12am - 8pm",
+ 			"phone": "786-717-5015",
+ 			"menu": "http://www.auntieannes.com/pretzels-nutrition",
+ 			"suggestions": "https://docs.google.com/document/d/16Kh5rBAv35MQHZYfqNJVHttAv1fuEg4ZRSmOFTvtxRI/pub",
+ 			"latLng": [25.791921, -80.210719]
+ 		},
+		{
+ 			"restaurant": "Burger King",
+ 			"src": "http://logos-download.com/wp-content/uploads/2016/04/Burger_King_logo_emblem-2.png",
+ 			"address": "1156-1196 NW 16th St, Miami, Florida, 33136",
+ 			"hours": "6am - 12am",
+ 			"phone": "786-260-6960",
+ 			"menu": "https://www.bk.com/pdfs/nutrition.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/10AKi9Paafv9pOYcMG5o9i8Ko4ryrEaUKc9JdE1xgG0c/pub",
+ 			"latLng": [25.790592, -80.21267]
+ 		},
+		{
+ 			"restaurant": "Cafe 20/20",
+ 			"src": "https://d3j6q7pa6ix88g.cloudfront.net/facilities/logo_wides/1001/wide/Bascom_Palmer_logo_high_res.png?1391452629",
+ 			"address": "900 NW 17th St, Miami, FL, 33136",
+ 			"hours": "8am - 5pm",
+ 			"phone": "",
+ 			"menu": "",
+ 			"suggestions": "https://docs.google.com/document/d/1hQtoH2NrTK147cDHzNGCs5MWPdCkcqoQ5HBS8obIoCQ/pub",
+ 			"latLng": [25.790998, -80.210678]
+ 		},
+		{
+ 			"restaurant": "Carvel",
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/0/00/Carvel_logo.png",
+ 			"address": "901 NW 17th St, Miami, FL 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-547-1235",
+ 			"menu": "https://www.carvel.com/public/images/NutritionalFacts124141.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/1z0BgCCzpsk30czL29cl768bBgeO0vy5SDW6iZ36qJTM/pub",
+ 			"latLng": [25.791921, -80.210719]
+ 		},
+		{
+ 			"restaurant": "Central Table Cafe",
+ 			"src": "https://s3-media3.fl.yelpcdn.com/bphoto/NIucJfDKMbK5nbs6yUM4YA/o.jpg",
+ 			"address": "1120 NW 14th St, Miami, FL 33136 - 9th Floor",
+ 			"hours": "M-F: 7am - 7pm, Sat/Sun: X",
+ 			"phone": "305-243-7600",
+ 			"menu": "https://docs.google.com/document/d/1pWAJMhDVYAU6yCgTzpC1msidr5LCZ91bLnilYX8ABww/pub",
+ 			"suggestions": "https://docs.google.com/document/d/1kf40M0Q_o1ikRujhtLHRsT0aqH8jW3TttkaI28dqkt0/pub",
+ 			"latLng": [25.787107,-80.21296]
+ 		},
+		{
+ 			"restaurant": "Chicken Kitchen",
+ 			"src": "http://whatsinstore.blogs.heraldtribune.com/files/2016/03/logo.png",
+ 			"address": "1051 NW 14th St, Miami, FL, 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-547-2442",
+ 			"menu": "https://www.chickenkitchen.com/pdf/our_menu.pdf",
+ 			"suggestions": "https://docs.google.com/document/d/1-jg7aOR1qAP6cFm60kkQL3WwoXWeSe0eodvqbHssWY0/pub",
+ 			"latLng": [25.788053, -80.212107]
+ 		},
+		{
+ 			"restaurant": "Dunkin' Donuts",
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Dunkin'_Donuts_logo.svg/1280px-Dunkin'_Donuts_logo.svg.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "7am - 11pm",
+ 			"phone": "305-428-3710",
+ 			"menu": "http://www.dunkindonuts.com/dunkindonuts/en/menu/nutrition/nutrition_catalog.html",
+ 			"suggestions": "https://docs.google.com/document/d/1kPuLmbo_LjcUzwOuMT3LIQueubontO19PV6-8NSj5OE/pub",
+ 			"latLng": [25.787418, -80.212168]
+ 		},
+		{
+ 			"restaurant": "Einstein Bros",
+ 			"src": "https://www.bu.edu/dining/files/2015/11/einstein-bros-bagels-logo-400x400.jpg",
+ 			"address": "901 NW 17th Street Miami, FL 33136",
+ 			"hours": "M-F: 6am-6pm, Sat: 6am-3pm",
+ 			"phone": "1-800-BAGELME",
+ 			"menu": "http://www.einsteinbros.com/menu/bagels-and-shmear",
+ 			"suggestions": "https://docs.google.com/document/d/1S0xbHdApT1hLdvECGn2BggnCyduChYonpwtmo8_bV5Y/pub",
+ 			"latLng": [25.791921,-80.210719]
+ 		},
+		{
+ 			"restaurant": "Farmer's Market",
+ 			"src": "https://p300-americantownscom.netdna-ssl.com/img/logos/logo-farmers-market.png",
+ 			"address": "1601 NW 10th Ave, Miami, FL 33136",
+ 			"hours": "R: 9am - 4pm",
+ 			"phone": "305-775-2166",
+ 			"menu": "http://bestfarmersmarkets.org/place/university-of-miami-jackson-campus-market-miami-fl.html",
+ 			"suggestions": "https://docs.google.com/document/d/1ra2JfLod2xDfRubGvQ0NY6uPxRNNO8dH-Ta2SQDF6n0/pub",
+ 			"latLng": [25.790369, -80.210732]
+ 		},
+		{
+ 			"restaurant": "Gilbert's Bakery",
+ 			"src": "https://gilbertsbakery.files.wordpress.com/2013/09/cropped-gilbert_logo_horizontal-rgb.jpg",
+ 			"address": "2100 NW 42nd Ave, Miami, FL 33142",
+ 			"hours": "M-Sat: 6:30am-8:30pm, Sun: 7:30am-3:30pm",
+ 			"phone": "305-869-4989",
+ 			"menu": "https://docs.google.com/document/d/1muN2HyPeGqTq2jEZwHx7iwfo7rgdnfnVi_Usn3znGJA/pub",
+ 			"suggestions": "https://docs.google.com/document/d/1_RjY28T1olYPbZMNOaWhof95eI28VBdgoMo58kOMuuQ/pub",
+ 			"latLng": [25.796887, -80.264407]
+ 		},
+		{
+ 			"restaurant": "Jamba Juice",
+ 			"src": "https://goodlogo.com/images/logos/jamba_juice_logo_3252.gif",
+ 			"address": "901 NW 17th St, Miami, FL 33136",
+ 			"hours": "M-F: 7am-8pm, Sat: 11am-4pm",
+ 			"phone": "786-899-0466",
+ 			"menu": "http://www.jambajuice.com/menu-and-nutrition/menu",
+ 			"suggestions": "https://docs.google.com/document/d/1mwKVpbWVpvF1C_0dBnDkPhpmhZQbuWfdT1wbQlVXiH0/pub",
+ 			"latLng": [25.791921, -80.210719]
+ 		},
+		{
+ 			"restaurant": "Jimmy John's",
+ 			"src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jimmy_John's_2016_Logo.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-Sun: 11am - 9pm",
+ 			"phone": "786-621-7600",
+ 			"menu": "https://www.jimmyjohns.com/menu/#/",
+ 			"suggestions": "https://docs.google.com/document/d/1dihvEoUlTAIMnASx3pi59HbbT6RDjO6h94ueonaFMGs/pub",
+ 			"latLng": [25.787418, -80.212168]
+ 		},
+		{
+ 			"restaurant": "JMH Cafeteria",
+ 			"src": "http://www.jacksonhealth.org/images/logo-jackson-memorial.jpg",
+ 			"address": "1611 NW 12th Ave, Miami, FL 33136 - First floor of Jackson Memorial Hospital",
+ 			"hours": "M-F: 6am-7pm, Sat-Sun: open 7am",
+ 			"phone": "305-585-8161",
+ 			"menu": "https://jackson-catering.catertrax.com/shopportal.asp?pageid=66&pageref=Caf%E9%A0Menus&intOrderID=&intCustomerID=",
+ 			"suggestions": "https://docs.google.com/document/d/1DLAeYsvstEMr7PLmFO93if-nmYiuPmx2ptRKJhgZArY/pub",
+ 			"latLng": [25.791799, -80.212638]
+ 		},
+		{
+ 			"restaurant": "Manger Creole",
+ 			"src": "https://rdc.rdcimage.com/partner-images/330045/mainlogo_logo.jpg",
+ 			"address": "1051 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-F: 9am - 8pm",
+ 			"phone": "305-324-1615",
+ 			"menu": "https://mangercreole.net/menu/",
+ 			"suggestions": "https://docs.google.com/document/d/1EJY4dJqFIeRK4iD_SaakNEnLQSc9MFXZwBFDASl-ET8/pub",
+ 			"latLng": [25.788053, -80.212107]
+ 		},
+		{
+ 			"restaurant": "McDonald's",
+ 			"src": "http://vignette3.wikia.nocookie.net/logopedia/images/7/72/Mcdonalds.jpg/revision/latest?cb=20140621181049",
+ 			"address": "901 NW 17th St, Miami, FL 33136",
+ 			"hours": "24/7",
+ 			"phone": "305-326-0044",
+ 			"menu": "https://www.mcdonalds.com/us/en-us/about-our-food/nutrition-calculator.html#categoryLoading",
+ 			"suggestions": "https://docs.google.com/document/d/1e-q9ED9U_VUcDOUHqoapzRckH_hoEOyO02fHWl9v8sw/pub",
+ 			"latLng": [25.791921, -80.210719]
+ 		},
+		{
+ 			"restaurant": "Moe's Southwestern Grill",
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/8/80/Moes_logo.png",
+ 			"address": "901 NW 17th Street Suite L-M, Miami, FL 33136",
+ 			"hours": "M-F: 10am-10pm, Sat: 11am-7pm",
+ 			"phone": "786-717-5015",
+ 			"menu": "http://www.moes.com/food/nutrition/burritos/",
+ 			"suggestions": "https://docs.google.com/document/d/1ZfPZ8I84ThbhrTrnJWN_-vfgIeVwvMiFv3NtuT1FXfw/pub",
+ 			"latLng": [25.791921, -80.210719]
+ 		},
+		{
+ 			"restaurant": "Naked Lunch",
+ 			"src": "https://igcdn-photos-h-a.akamaihd.net/hphotos-ak-xaf1/t51.2885-19/10894972_1383505178621119_1126601182_a.jpg",
+ 			"address": "1951 NW 7th Ave, Miami, FL 33136",
+ 			"hours": "M-R: 11-7pm, F: 11-8pm, Sat/Sun: X",
+ 			"phone": "305-307-5889",
+ 			"menu": "http://www.nakedlunchmiami.com/menu/",
+ 			"suggestions": "https://docs.google.com/document/d/1dhqvKFjtTilUSYGpRG6Mo6_buHglxFx6eaj77FGlkmw/pub",
+ 			"latLng": [25.794642,-80.206349]
+ 		},
+		{
+ 			"restaurant": "Panera",
+ 			"src": "http://www.golfmill.com/wp-content/uploads/2016/12/panera-bread-logo.png",
+ 			"address": "1611 NW 12th Avenue, Miami, FL, 33136",
+ 			"hours": "5:00am - 9:00pm",
+ 			"phone": "786-775-5999",
+ 			"menu": "https://www.panerabread.com/panerabread/documents/nutrition/Menu-Retail.PDF",
+ 			"suggestions": "https://docs.google.com/document/d/1S3uta2TEl3cj7efnWA-d1lxvmvMStnFVlXPAqO6_HiE/pub",
+ 			"latLng": [25.791799, -80.212638]
+ 		},
+		{
+ 			"restaurant": "Pollo Tropical",
+ 			"src": "https://fastfoodinusa.com/templates/uploads/userfiles/images/brands-logo/Pollo_Tropical_logo.png",
+ 			"address": "1156-1196 NW 16th St, Miami, FL 33136",
+ 			"hours": "M-Sun: 10:00am - 9:00pm",
+ 			"phone": "407-573-6112",
+ 			"menu": "http://pollotropical.com/menus/",
+ 			"suggestions": "https://docs.google.com/document/d/1RmQJGmHLLkik6AFFPwI-n9YCYLelRdtVflXbCOoBakQ/pub",
+ 			"latLng": [25.7900026, -80.2130032]
+ 		},
+		{
+ 			"restaurant": "Salsa Fiesta",
+ 			"src": "https://static1.squarespace.com/static/5704313c45bf214b427bd478/570eaf3ab09f951bbd59df14/5801431ebe6594fdf9f572da/1480617570804/3bLqIq88+(2).jpeg?format=750w",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-Sat: 11am-10pm, Sun: 12pm-9pm",
+ 			"phone": "305-615-3831",
+ 			"menu": "https://b.zmtcdn.com/data/menus/645/16541645/f91a217dc32c8d947b55676db2960ea6.jpg",
+ 			"suggestions": "https://docs.google.com/document/d/1j8ztwQckpC4iGtEoyQpY61HD2ZFnf3s378KCtEgzLdc/pub",
+ 			"latLng": [25.787418, -80.212168]
+ 		},
+		{
+ 			"restaurant": "Smoothie King",
+ 			"src": "http://www.underconsideration.com/brandnew/archives/smoothie_king_logo_detail.png",
+ 			"address": "1050 NW 14th St, Miami, FL 33136",
+ 			"hours": "M-F: 7am-9pm, Sat: 8am-9pm, Sun: 9am-8pm",
+ 			"phone": "305-547-6906",
+ 			"menu": "http://smoothieking.com/menu/nutrition-info",
+ 			"suggestions": "https://docs.google.com/document/d/1cizcrcGvQy2tr2dchh2SgyktxpwHkMbkkL9k0ElDzA8/pub",
+ 			"latLng": [25.787418, -80.212168]
+ 		},
+ 		{
+ 			"restaurant": "Starbucks",
+ 			"src": "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Starbucks_Coffee_Logo.svg/600px-Starbucks_Coffee_Logo.svg.png",
+ 			"address": "1601 NW 10th Ave, Miami, FL 33136",
+ 			"hours": "24/7",
+ 			"phone": "800-782-7282",
+ 			"menu": "http://www.starbucks.com/menu",
+ 			"suggestions": "https://docs.google.com/document/d/1l1LJTKjMQJMU5Gihm_mtLhQcdEBnxDHslmrorJfVnjU/pub",
+ 			"latLng": [25.790388, -80.210721]
+ 		},
+		{
+ 			"restaurant": "Subway",
+ 			"src": "http://vignette1.wikia.nocookie.net/logopedia/images/6/64/Subway_logo.jpg/revision/latest?cb=20140808235058",
+ 			"address": "1051 NW 14th St, Miami, FL 33136",
+ 			"hours": "7:00am - 7:00pm",
+ 			"phone": "305-326-9001",
+ 			"menu": "http://local.subway.com/FWPCons/frmMenu.aspx?CC=USA&LC=ENG&SS=16032-0&PM=&MenuID=",
+ 			"suggestions": "https://docs.google.com/document/d/1Ne2-AmvTJG2dv2mkFxRcvVTmUdndfs0l7-jyP4E0XYs/pub",
+ 			"latLng": [25.788053, -80.212107]
+ 		},
+		{
+ 			"restaurant": "Thea's",
+ 			"src": "http://napoleonmedia.co/wp-content/uploads/2013/09/brands-umlstp-logo.jpg",
+ 			"address": "1951 NW 7th Ave, Miami, FL 33136",
+ 			"hours": "M-F: 10:30-5pm, Sat/Sun: X",
+ 			"phone": "305-777-3777",
+ 			"menu": "http://www.theamiami.com/menu/",
+ 			"suggestions": "https://docs.google.com/document/d/1kKHDj61Tt02MvJDbxluGocm7FhvHKATm53xmUbHgh6s/pub",
+ 			"latLng": [25.794642,-80.206349]
+ 		},
+		{
+ 			"restaurant": "UM Cafeteria",
+ 			"src": "http://uhealthsystem.com/images/logos/uhealth/jpg/uhealth-300.jpg",
+ 			"address": "1120 NW 14th St, Miami, FL 33136",
+ 			"hours": "6:30am-10am, 11am - 3:30pm, 4:30pm-6:30pm",
+ 			"phone": "305-689-5511",
+ 			"menu": "http://www.umiamihospital.com/food/",
+ 			"suggestions": "https://docs.google.com/document/d/1DLAeYsvstEMr7PLmFO93if-nmYiuPmx2ptRKJhgZArY/pub",
+ 			"latLng": [25.787107, -80.21296]
+ 		},
+		{
+ 			"restaurant": "Vienna Pizza & Cafe",
+ 			"src": "http://files.jcssrevestimentos.com.br/200000087-87cd588c75/Viena.jpg",
+ 			"address": "1611 NW 12th Ave, Miami, FL 33136",
+ 			"hours": "10:00am - 9:00pm",
+ 			"phone": "407-573-6112",
+ 			"menu": "https://docs.google.com/document/d/1w8CHZYaMzaDEmVt30jH0FDcJtDOgpEvLHrITQd6NEBU/pub",
+ 			"suggestions": "https://docs.google.com/document/d/1djYG-ajYz7tRZ6WT5tNPU2WOv6fEmZnl7jGS9zHgbbE/pub",
+ 			"latLng": [25.791799, -80.212638]
+ 		}
+ 	],
+ 	"reviews": [
+ 		{
+ 			"restaurant": 16,
+ 			"date": "September 1, 2016",
+ 			"title": "Mediteranean Sandwich",
+ 			"src": "https://www.panerabread.com/panerabread/menu/details/mediterranean-veggie-sandwich-whole.jpg/_jcr_content/renditions/mediterranean-veggie-sandwich-whole.desktop.jpeg",
+ 			"content": "I loved my mediteranean sandwich at Panera. The crispy bread melded perfectly with a colorful blend of vegetables. Butter lettuce, juicy red onions, and feta cheese were integrated into a masterpiece in my mouth. Go try it!"
+ 		}
+ 	],
+ 	"onCampus": [
+ 		{
+ 			"restaurant": 0,
+ 			"ingredients": [
+ 				"Banana", "Yogurt", "Hummus and Pretzel Chips"
+ 			],
+ 			"src": "http://www.dietdetective.com/wp-content/uploads/shutterstock_62555524-960x500.jpg"
+ 		}
+ 	],
+ 	"healthyHome": [
+ 		{
+			"meal": "Tuna Sandwich",
+			"ingredients": [
+				"Canned Tuna", "Low-fat Mayo", "Whole-grain Bread"
+			],
+			"src": "http://images-gmi-pmc.edge-generalmills.com/db53baa5-9b18-4fe4-ba50-a5197f53de18.jpg"
+ 		},
+ 		{
+ 			"meal": "Salad",
+ 			"ingredients": [
+ 				"Lettuce", "Cherry Tomatoes", "Chicken", "Balsamic Dressing"
+ 			],
+ 			"src": "https://fffkids.files.wordpress.com/2011/08/chicken-pepper-salad.jpg"
+ 		}
+ 	],
+ 	"mealPrep": [
+ 		{
+ 			"title": "Simple Lunches",
+ 			"src": "https://docs.google.com/document/d/1iHG_RlFWL3wVinib1R1bSE_IMVbOfloYANB7ELoaWNI/pub",
+ 			"thumbnail": "img/simple_lunches.jpg"
+ 		},
+ 		{
+ 			"title": "Quick Chicken",
+ 			"src": "https://docs.google.com/document/d/1xttaRs0UzOHApfnWrX9e17coXgGqhjJZbvhVWICKwOo/pub",
+ 			"thumbnail": "img/quick_chicken.png"
+ 		},
+ 		{
+ 			"title": "Veggie Time",
+ 			"src": "https://docs.google.com/document/d/12BTRnu3DaYHytVIxV1CDN_nvFfeaxT_qS3XTTpBAo0A/pub",
+ 			"thumbnail": "img/veggie_time.png"
+ 		},
+ 		{
+ 			"title": "Savory Soups",
+ 			"src": "https://docs.google.com/document/d/1nAREiKLrbgRKPEbJeBziOwJdpbzn12HU1I2GjuBOsw4/pub",
+ 			"thumbnail": "img/savory_soups.png"
+ 		},
+ 		{
+ 			"title": "Chickpea Heaven",
+ 			"src": "https://docs.google.com/document/d/1WWM1n8YbReKXBw5mP3bGyK6heMf3sdv947pbboqfq5k/pub",
+ 			"thumbnail": "img/chickpea_heaven.png"
+ 		},
+ 		{
+ 			"title": "Fish Fun",
+ 			"src": "https://docs.google.com/document/d/1D8w_JSeCoRPfcwzdzQwo4xgURP8EXlq8n6cVIx3ITh0/pub",
+ 			"thumbnail": "img/fish_fun.png"
+ 		}
+ 	],
+ 	"healthyFoodInfo": [
+ 		{
+ 			"title": "Nutrition Guidelines",
+ 			"src": "https://health.gov/dietaryguidelines/2015/guidelines/chapter-1/key-recommendations/"
+ 		},
+ 		{
+ 			"title": "Eating Healthy for Under $50/wk",
+ 			"src": "https://www.buzzfeed.com/jessicamjones/eat-healthy-all-week-for-50-bucks?utm_term=.mglLa59wj#.vloO3bwWq"
+ 		},
+ 		{
+ 			"title": "Eat Like a Nutritionist",
+ 			"src": "http://essencenutritionmiami.com/"
+ 		},
+ 		{
+ 			"title": "Foodie Physician Recs and Recipes",
+ 			"src": "http://thefoodiephysician.com/health-wellness"
+ 		},
+ 		{
+ 			"title": "Meal Prep Burrito Bowls",
+ 			"src": "https://www.youtube.com/watch?v=IehX_6FHTNw"
+ 		},
+ 		{
+ 			"title": "Med School Food Hacks",
+ 			"src": "https://www.picmonic.com/pages/10-med-school-food-hacks-fueling-brain/"
+ 		},
+ 		{
+ 			"title": "My Daily Plate",
+ 			"src": "http://www.livestrong.com/myplate/"
+ 		},	
+ 		{
+ 			"title": "Starbucks Drink Tips",
+ 			"src": "https://news.starbucks.com/news/customize-your-beverage-tips-from-starbucks-baristas"
+ 		}	
+ 	]
+
+}

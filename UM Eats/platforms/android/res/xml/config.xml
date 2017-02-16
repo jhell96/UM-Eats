@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="eats.um" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>UM Eats</name>
+    <description>
+        A streamlined way to find healthy food at popular chain restaurants.
+    </description>
+    <author email="jhellerstein96@gmail.com" href="">
+        Josh Hellerstein
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <icon platform="android" qualifier="ldpi" src="res/icons/ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="res/icons/mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="res/icons/hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="res/icons/xhdpi.png" />
+    <icon platform="android" qualifier="xxhdpi" src="res/icons/xxhdpi.png" />
+    <icon platform="android" qualifier="fr-xxhdpi" src="res/icons/fr-xxhdpi.png" />
+    <allow-intent href="market:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+</widget>

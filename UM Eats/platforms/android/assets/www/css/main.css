@@ -1,0 +1,190 @@
+/* Add custom styles here */
+#card-header {
+	height: 40vw;
+	background-size: cover;
+	background-position: center;
+	font-size: 30px;
+}
+
+.category-text {
+	text-shadow: 0 0 10px #000;
+}
+
+.menu-ul-list {
+	border-radius: 5px;
+	background-color: #0b3300 !important;
+}
+
+.panel-left {
+	background-color: #125400 !important;
+}
+
+.list-block .item-link .item-inner {
+	background-image: none;
+	padding-right: 0px;
+}
+
+#side-panel-text-block {
+	color: #fff;
+}
+
+.navbar {
+	background-color: #ff9500;
+}
+
+#app-title {
+	color: #fff;
+	text-shadow: 0 0 1px #9c9c9c;
+}
+
+.card-section-title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.no-mar {
+	margin: 0px;
+}
+
+#map {
+	width: 100%;
+}
+
+.marker {
+    border: 1px solid #ff9500;
+    color: #0b3300;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.marker:after {
+    content: "";
+    position: absolute;
+    left: 34%;
+    top: 17px;
+    border: 10px solid transparent;
+    border-top: 10px solid #ff9500;
+    z-index: -1;
+}
+
+.marker-name {
+	padding: 2px;
+}
+
+.review-card {
+	height: 400px;
+}
+
+.card-header-review {
+	height: 50%;
+	background-size: cover;
+    background-position: center;
+}
+
+.card-header-campus {
+	height: 240px;
+	background-size: cover;
+    background-position: center;
+}
+
+.card-content-review {
+	height: 50%;
+}
+
+.review-title {
+	text-shadow: 0 0 10px #000;
+}
+
+.logo {
+    height: 65px;
+    width: 105px;
+    background-position: center;
+    background-size: cover;
+    bottom: 20px;
+    position: absolute;
+    left: 30%;
+}
+
+.address, .hours, .phone {
+	font-size: 11px !important;
+}
+
+.suggestions, .menus {
+	color: #007aff !important;
+}
+
+.popup-overlay {
+	z-index: -1 !important;
+}
+
+#suggestions-title, #menu-title {
+	text-align: center;
+	margin: 0px;
+	color: #ff9500;
+	text-shadow: 0 0 1px #9c9c9c;
+}
+
+.exit-icon {
+	padding: 5px;
+}
+
+.popup-content {
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.phone-icon, .navigate-icon {
+  font-size: 15px !important;
+  display: inline-flex;
+  float: left;
+  margin-right: 8px;
+}
+
+.color-dark-blue {
+  color: #0e4a8c;
+}
+
+.healthyHeader {
+    height: 75px;
+    width: 105px;
+    background-size: cover;
+    background-position: center;
+}
+
+@font-face {
+  font-family: 'Framework7 Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Framework7Icons-Regular.eot");
+  src: local('Framework7 Icons'),
+     local('Framework7Icons-Regular'),
+     url("../fonts/Framework7Icons-Regular.woff2") format("woff2"),
+     url("../fonts/Framework7Icons-Regular.woff") format("woff"),
+     url("../fonts/Framework7Icons-Regular.ttf") format("truetype");
+}
+
+.f7-icons, .framework7-icons {
+  font-family: 'Framework7 Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga";
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+}

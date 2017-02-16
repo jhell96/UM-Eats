@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+  <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:; style-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:; img-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:; font-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    
+    <title>UM Eats</title>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.min.css">
+    <link rel="stylesheet" href="lib/framework7/css/framework7.ios.colors.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.2/angular-ui-router.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/framework7/1.3.1/js/framework7.min.js"></script>
+    
+    <script type="text/javascript" src="js/config.js"></script>
+    <script type="text/javascript" src="js/mods.js"></script>
+    <script type="text/javascript" src="js/service/InitService.js"></script>
+    <script type="text/javascript" src="js/service/DataService.js"></script>
+    <script type="text/javascript" src="js/controller/IndexPageController.js"></script>
+    <script type="text/javascript" src="js/controller/DetailPageController.js"></script>
+    <script type="text/javascript" src="js/controller/MapsPageController.js"></script>
+    <script type="text/javascript" src="js/controller/RestPageController.js"></script>
+    <script type="text/javascript" src="js/controller/OnCampusPageController.js"></script>
+    <script type="text/javascript" src="js/controller/HealthyHomePageController.js"></script>
+    <script type="text/javascript" src="js/controller/ReviewsPageController.js"></script>
+    <script type="text/javascript" src="js/controller/HealthyFoodInfoPageController.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyCpJwATIZ5AghMa8C9yH4wsnFfZDWQFr5c"></script>
+    <script src="js/ng-map.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <div class="statusbar-overlay"></div>
+    <div class="panel-overlay"></div>         
+    <!-- Left Panel with Reveal effect -->
+    <div class="panel panel-left panel-cover layout-dark">
+      <div class="content-block">
+        <a href="#index"> <div class="logo" style="background-image:url('img/um_logo.png')"></div><a>
+        <div class="content-block-title">Menu</div>
+        
+        <div class="list-block" id="side-panel-text-block">
+          <ul class="menu-ul-list">
+            <a href="#restaurantListPage" class="item-link close-panel">
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">Restaurants</div>
+                </div>
+              </li>
+            </a>  
+            <a href="#mapsPage" class="item-link close-panel" onclick="mapLoad()">
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">Map</div>
+                </div>
+              </li>
+            </a>
+            <a href="#healthyFoodInfoPage" class="item-link close-panel">
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">Health Tips</div>
+                </div>
+              </li>
+            </a>    
+            <a href="#healthyHome" class="item-link close-panel">
+              <li class="item-content">
+                <div class="item-inner">
+                  <div class="item-title">Home Meal Prep</div>
+                </div>
+              </li>
+            </a>  
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="views">
+      <div class="view view-main">
+        
+        <!-- Navbar -->
+        <div class="navbar no-border">
+          <div class="navbar-inner">
+            <div class="left">
+              <a href="#" data-panel="left" class="open-panel link icon-only">
+                <i class="icon icon-bars color-white"></i>
+              </a>
+            </div>
+            <div class="center sliding">
+              <span id="app-title">UM Eats</span>
+            </div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="detailsPage">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="healthyFoodInfoPage">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="mapsPage">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="restaurantListPage">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="reviewsPage">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="onCampus">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+          <div class="navbar-inner cached" data-page="healthyHome">
+            <div class="left sliding">
+              <a href="index" class="link back color-white">
+                <i class="icon icon-back color-white"></i><span>Back</span>
+              </a>
+            </div>
+            <div class="center sliding"></div>
+            <div class="right"></div>
+          </div>
+        </div>
+        
+        <!-- Pages -->
+        <div class="pages navbar-through toolbar-through">  
+          <!-- Page 1 -->
+          <div data-page="index" class="page" ng-controller="IndexPageController">
+
+            <!-- Page content-->
+            <div class="page-content">
+              <a ng-repeat="category in categories" href="#detailsPage" class="item-link" ng-click="onItemClicked(category)">
+                <div class="card">
+                  <div style="background-image:url({{category.src}})" valign="bottom" id="card-header" class="card-header color-white no-border">
+                    <span class="category-text">{{category.category}}</span>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Page 2 -->
+          <div data-page="detailsPage" class="page cached" ng-controller="DetailPageController">
+            <!-- Page content-->
+            <div class="page-content">
+              <div class="content-block-title">{{category.category}}</div>
+              
+              <div class="list-block media-list accordion-list">
+                <ul>
+                  <li ng-repeat="restKey in category.restaurants" class="accordion-item">
+                    <a href="#" class="item-content item-link">
+                      <div class="item-media"><img src="{{restaurants[restKey].src}}" width="44"></div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">{{restaurants[restKey].restaurant}}</div>
+                        </div>
+                        <div class="item-subtitle hours">{{restaurants[restKey].hours}}</div>
+                      </div>
+                    </a>
+                    <div class="accordion-item-content">
+                      <div class="content-block">
+                        <div class="list-block">
+                          <ul>
+                            <li class="item-content">
+                              <div class="item-inner" data-latLng="{{restaurants[restKey].latLng}}" data-rest="{{restaurants[restKey].restaurant}}" onclick="openInMaps(this)">
+                                <div class="item-title">Address</div>
+                                <span><i class="f7-icons navigate-icon color-dark-blue">navigation_fill</i></span>
+                                <div class="item-after address">{{restaurants[restKey].address}}</div>
+                              </div>
+                            </li>
+                            <li class="item-content">                              
+                              <div class="item-inner" data-tel="{{restaurants[restKey].phone}}" onclick="callTellNumber(this)">
+                                <div class="item-title">Phone</div>
+                                <span><i class="f7-icons color-green phone-icon">phone_fill</i></span>
+                                <div class="item-after phone">{{restaurants[restKey].phone}}</div>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-inner">
+                                <a href="#" data-url="{{restaurants[restKey].menu}}" onclick="loadMenuPage(this)"><div class="item-title menus">Menu</div></a>
+                              </div>
+                            </li>
+                            <li class="item-content">
+                              <div class="item-inner">
+                                <a href="#" data-popup=".popup-suggestions" class="open-popup" data-url="{{restaurants[restKey].suggestions}}" onclick="loadSugPage(this)"> <div class="item-title suggestions"> Healthy Suggestions </div> </a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>  
+            </div>
+          </div>
+
+          <!-- Page 3 -->
+          <div data-page="healthyFoodInfoPage" class="page cached" ng-controller="healthyFoodInfoPage">
+            <!-- Page content-->
+            <div class="page-content">
+              <div class="content-block-title card-section-title">Resources</div>
+              <div class="list-block">
+                <ul>
+                  <li class="item-content" ng-repeat="resource in healthyFoodInfo">
+                    <div class="item-inner" data-url="{{resource.src}}" onclick="loadInfoPage(this)">
+                      <div class="item-title color-blue">{{resource.title}}</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="content-block-title card-section-title">Calories</div>
+              <div class="card">
+                <div class="card-header no-border">
+                  <p class="no-mar">
+                    While monitoring calorie consumption is important - it is not always
+                    indicative of nutrition.
+                  </p>
+                </div>
+              </div>
+              <div class="content-block-title card-section-title">Fat</div>
+              <div class="card">
+                <div class="card-header no-border">
+                  <p class="no-mar">
+                    Avoid saturated and trans fat!
+                  </p>
+                </div>
+              </div>
+              <div class="content-block-title card-section-title">Sugar</div>
+              <div class="card">
+                <div class="card-header no-border">
+                  <p class="no-mar">
+                    Aim to get the majority of sugar from fruits!
+                  </p>
+                </div>
+              </div>
+              <div class="content-block-title card-section-title">Sodium</div>
+              <div class="card">
+                <div class="card-header no-border">
+                  <p class="no-mar">
+                    Foods lower in sodium tend to be healthier options.
+                    Tip: Choose water instead of soda!
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 4 -->
+          <div data-page="mapsPage" class="page cached" ng-controller="MapsPageController as vm">
+            <!-- Page content-->
+            <div class="page-content">
+              <button id="initButton" ng-click="vm.initMap('map')" style="display: none;"></button>
+              <ng-map id="map" zoom="14" center="[25.788621, -80.215864]" default-style="true" lazy-init="true">
+
+                <custom-marker ng-repeat="p in restaurants" position="{{p.latLng}}">
+                  <div class="marker">
+                    <span class="marker-name">{{p.restaurant}}</span>
+                  </div>
+                </custom-marker>
+
+              </ng-map>
+            </div>
+          </div>
+
+          <!-- Page 5 -->
+          <div data-page="restaurantListPage" class="page cached" ng-controller="RestPageController">
+            <!-- Search Bar -->
+            <form data-search-list=".restaurant-list" data-search-in=".item-title" class="searchbar searchbar-init">
+              <div class="searchbar-input">
+                <input type="search" placeholder="Search Restaurants"><a href="#" class="searchbar-clear"></a>
+              </div><a href="#" class="searchbar-cancel">Cancel</a>
+            </form>
+
+            <!-- Search Bar overlay -->
+            <div class="searchbar-overlay"></div>
+            
+            <!-- Page content-->
+            <div class="page-content">
+              <!-- This block will be displayed if nothing found -->
+              <div class="content-block searchbar-not-found">
+                <div class="content-block-inner">Nothing found</div>
+              </div>
+
+              <div class="list-block media-list accordion-list restaurant-list searchbar-found no-mar">
+                <ul>
+                  <li ng-repeat="restaurant in restaurants" class="accordion-item">
+                    <a href="#" class="item-content item-link" onclick="unhide(); removeSearchHide();">
+                      <div class="item-media"><img src="{{restaurant.src}}" width="44"></div>
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">{{restaurant.restaurant}}</div>
+                        </div>
+                        <div class="item-subtitle hours">{{restaurant.hours}}</div>
+                      </div>
+                    </a>
+                    <div class="accordion-item-content">
+                      <div class="content-block">
+                        <div class="list-block">
+                          <ul>
+                            <li class="item-content removeSearchHideClass">
+                              <div class="item-inner" data-latLng="{{restaurant.latLng}}" data-rest="{{restaurant.restaurant}}" onclick="openInMaps(this)">
+                                <div class="item-title">Address</div>
+                                <span><i class="f7-icons navigate-icon color-dark-blue">navigation_fill</i></span>
+                                <div class="item-after address">{{restaurant.address}}</div>
+                              </div>
+                            </li>
+                            <li class="item-content removeSearchHideClass">
+                              <div class="item-inner" data-tel="{{restaurant.phone}}" onclick="callTellNumber(this)">
+                                <div class="item-title">Phone</div>
+                                <span><i class="f7-icons color-green phone-icon">phone_fill</i></span>
+                                <div class="item-after phone">{{restaurant.phone}}</div>
+                              </div>
+                            </li>
+                            <li class="item-content removeSearchHideClass">
+                              <div class="item-inner">
+                                <a href="#" data-url="{{restaurant.menu}}" onclick="loadMenuPage(this)"><div class="item-title menus">Menu</div></a>
+                              </div>
+                            </li>
+                            <li class="item-content removeSearchHideClass">
+                              <div class="item-inner">
+                                <a href="#" data-popup=".popup-suggestions" class="open-popup" data-url="{{restaurant.suggestions}}" onclick="loadSugPage(this)"> <div class="item-title suggestions"> Healthy Suggestions </div> </a>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div> 
+
+            </div>
+          </div>
+
+          <!-- Page 6 -->
+          <div data-page="reviewsPage" class="page cached" ng-controller="ReviewsPageController">
+            <!-- Page content-->
+            <div class="page-content">
+              <div ng-repeat="review in reviews" class="card review-card">
+                <div style="background-image:url({{review.src}})" valign="bottom" class="card-header card-header-review color-white no-border">
+                  <span class="review-title">{{review.title}}</span>
+                </div>
+                  <div class="card-content card-content-review">
+                    <div class="card-content-inner">
+                      <p class="color-gray">{{restaurants[review.restaurant].restaurant}}</p>
+                      <p>{{review.content}}</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 7 -->
+          <div data-page="onCampus" class="page cached" ng-controller="OnCampusPageController">
+            <!-- Page content-->
+            <div class="page-content">
+              <div ng-repeat="meal in onCampus">
+                <div class="content-block-title card-section-title">{{restaurants[meal.restaurant].restaurant}}</div>
+                <div class="card">
+                  <div class="list-block card-content">
+                    <ul class="card-content-inner">
+                      <li ng-repeat="foodItem in meal.ingredients" class="item-content">
+                        <div class="item-inner">
+                          <div class="item-title">{{foodItem}}</div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div style="background-image:url({{meal.src}})" class="card review-card card-header-campus">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Page 8 -->
+          <div data-page="healthyHome" class="page cached" ng-controller="HealthyHomePageController">
+            <!-- Page content-->
+            <div class="page-content">
+              <div class="content-block-title card-section-title">Meal Prep</div>
+              <div class="list-block media-list">
+                <ul>
+                  <li ng-repeat="prep in mealPrep">
+                    <a href="#" class="item-link item-content" onclick="loadPrepPage(this)" data-url="{{prep.src}}">
+                      <div style="background-image:url({{prep.thumbnail}})" valign="bottom" class="card-header color-white no-border item-media healthyHeader">
+                      </div>
+
+                      <div class="item-inner">
+                        <div class="item-title-row">
+                          <div class="item-title">{{prep.title}}</div>
+                          <div class="item-after"></div>
+                        </div>
+                        <div class="item-subtitle"></div>
+                        <div class="item-text"></div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="popup popup-suggestions">
+            <a href="#" class="close-popup"><i class="f7-icons size-29 exit-icon">close_round</i></a>
+            <div class="content-block popup-content">
+              <h1 id="suggestions-title">Healthy Options</h1>
+            </div>
+            <div class="col-25 text-center" id="pop-preloader-sug">
+              <span style="width:62px; height:62px" class="preloader"></span>
+            </div>
+            <div id="popup-embed-sug"></div>
+          </div>
+
+    </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+  </body>
+</html>

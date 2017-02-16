@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="eats.um" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <name>UM Eats</name>
+    <description>
+        A streamlined way to find healthy food at popular chain restaurants.
+    </description>
+    <author email="jhellerstein96@gmail.com" href="">
+        Josh Hellerstein
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+    <icon height="180" platform="ios" src="res/icons/icon-60@3x.png" width="180" />
+    <icon height="60" platform="ios" src="res/icons/icon-60.png" width="60" />
+    <icon height="120" platform="ios" src="res/icons/icon-60@2x.png" width="120" />
+    <icon height="57" platform="ios" src="res/icons/icon.png" width="57" />
+    <icon height="114" platform="ios" src="res/icons/icon@2x.png" width="114" />
+    <allow-intent href="itms:*" />
+    <allow-intent href="itms-apps:*" />
+    <preference name="AllowInlineMediaPlayback" value="false" />
+    <preference name="BackupWebStorage" value="none" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+</widget>

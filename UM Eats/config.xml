@@ -1,0 +1,65 @@
+1<?xml version='1.0' encoding='utf-8'?>
+<widget id="eats.um" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>UM Eats</name>
+    <description>
+        A streamlined way to find healthy food at popular chain restaurants.
+    </description>
+    <author email="jhellerstein96@gmail.com" href="">
+        Josh Hellerstein
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
+
+    <platform name="android">
+        <icon src="res/icons/ldpi.png" platform="android" qualifier="ldpi" />
+        <icon src="res/icons/mdpi.png" platform="android" qualifier="mdpi" />
+        <icon src="res/icons/hdpi.png" platform="android" qualifier="hdpi" />
+        <icon src="res/icons/xhdpi.png" platform="android" qualifier="xhdpi" />
+        <icon src="res/icons/xxhdpi.png" platform="android" qualifier="xxhdpi" />
+        <icon src="res/icons/fr-xxhdpi.png" platform="android" qualifier="fr-xxhdpi" />
+
+        <preference name="android-minSdkVersion" value="14" />
+        <allow-intent href="market:*" />
+    </platform>
+
+    <platform name="ios">
+
+        <!-- iPhone 6 / 6+ -->
+        <icon src="res/icons/icon-60@3x.png" platform="ios" width="180" height="180" />
+
+        <!-- iPhone / iPod Touch  -->
+        <icon src="res/icons/icon-60.png" platform="ios" width="60" height="60" />
+        <icon src="res/icons/icon-60@2x.png" platform="ios" width="120" height="120" />
+
+        <!-- iPhone / iPod Touch -->
+        <icon src="res/icons/icon.png" platform="ios" width="57" height="57" />
+        <icon src="res/icons/icon@2x.png" platform="ios" width="114" height="114" />
+
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="BackupWebStorage" value="none" />
+    </platform>
+
+    <preference name="DisallowOverscroll" value="true" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <plugin name="cordova-plugin-inappbrowser" />
+
+    <feature name="InAppBrowser">
+        <param name="android-package" value="org.apache.cordova.InAppBrowser" />
+    </feature>
+    <feature name="InAppBrowser">
+        <param name="ios-package" value="CDVInAppBrowser" />
+    </feature>
+
+</widget>
