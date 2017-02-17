@@ -313,8 +313,7 @@ var IAB = {
             }
 
             if (isWebViewAvailable && browserWrap && popup) {
-                // CB-12364 getFileFromApplicationUriAsync does not support ms-appx-web
-                var uri = new Windows.Foundation.Uri(filePath.replace('ms-appx-web:', 'ms-appx:'));
+                var uri = new Windows.Foundation.Uri(filePath);
                 Windows.Storage.StorageFile.getFileFromApplicationUriAsync(uri).done(function (file) {
                     Windows.Storage.FileIO.readTextAsync(file).done(function (code) {
                         var op = popup.invokeScriptAsync("eval", code);
@@ -351,8 +350,7 @@ var IAB = {
             filePath = filePath && urlutil.makeAbsolute(filePath);
 
             if (isWebViewAvailable && browserWrap && popup) {
-                // CB-12364 getFileFromApplicationUriAsync does not support ms-appx-web
-                var uri = new Windows.Foundation.Uri(filePath.replace('ms-appx-web:', 'ms-appx:'));
+                var uri = new Windows.Foundation.Uri(filePath);
                 Windows.Storage.StorageFile.getFileFromApplicationUriAsync(uri).then(function (file) {
                     return Windows.Storage.FileIO.readTextAsync(file);
                 }).done(function (code) {
